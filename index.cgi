@@ -11,9 +11,6 @@ exec(open("cms/controller.py").read())
 print "<b>bold bla</b>"
 #print '<p><a href="test"> link to the second page </a></p>'
 
-import django
-print django.get_version()
-
 import cms.library as lb
 
 lb.testFunc()
