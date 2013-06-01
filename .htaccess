@@ -1,1 +1,1 @@
-#test
+AddHandler cgi-script .py
