@@ -4,7 +4,8 @@
 /run.cgi
 /install.cgi - ask for data, init DB, admin_data
 /panel.cgi - show created pages, allow creating pages
-/addPage.cgi - interface for creating, and their content
+/addPageI.cgi - interface for creating, and their content
+/addPage.cgi - code for adding the content
 /managePages.cgi - lists all created pages
 /editPage.cgi - edits the chosen page, has delete option
 /modifyCat.cgi - create, delete and modify categories and their names
@@ -15,7 +16,6 @@
 /mp/template/column
 /mp/views/addPage.html
 /mp/db/dbi
-
 
 
 # lista podstron
