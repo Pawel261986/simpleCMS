@@ -7,12 +7,15 @@
 /addPage.cgi - interface for creating, and their content
 /managePages.cgi - lists all created pages
 /editPage.cgi - edits the chosen page, has delete option
-/modifyCat - create, delete and modify categories and their names
-/editPanels.cgi - add links to the header, sidebar, et
+/modifyCat.cgi - create, delete and modify categories and their names
+/editPanels.cgi - add links to the header, sidebar, this page lists all 
+    categories of links and all panels
 /mp/template/template.config
 /mp/template/leftsidebar
 /mp/template/column
-/mp
+/mp/views/addPage.html
+/mp/db/dbi
+
 
 
 # lista podstron
