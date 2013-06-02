@@ -1,5 +1,20 @@
 #! /usr/bin/env python
 
+#   folder structure
+/run.cgi
+/install.cgi - ask for data, init DB, admin_data
+/panel.cgi - show created pages, allow creating pages
+/addPage.cgi - interface for creating, and their content
+/managePages.cgi - lists all created pages
+/editPage.cgi - edits the chosen page, has delete option
+/modifyCat - create, delete and modify categories and their names
+/editPanels.cgi - add links to the header, sidebar, et
+/mp/template/template.config
+/mp/template/leftsidebar
+/mp/template/column
+/mp
+
+
 # lista podstron
 /   sidebar
 /careers    main
