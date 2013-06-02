@@ -1,0 +1,2 @@
+1. Oddzielne configuration pliki dla kazdego komponentu takiego jak: 
+header, footer, sidebat itd, specifkujace wyglad, czcionke i rozmiar.
