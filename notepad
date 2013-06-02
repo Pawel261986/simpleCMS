@@ -1,0 +1,187 @@
+#! /usr/bin/env python
+
+# lista podstron
+/   sidebar
+/careers    main
+/about  sidebar
+
+#   ja chce /
+#   /, sidebar
+
+build..("/about")
+
+#   sidebar
+#   string, ta strone
+def buildSidebarPage(toBuild):
+    header = l.header( h.getHeader() )
+    body = l.body( bodyContent )
+    footer = getFooter()
+    
+    return site l.html( header + body + footer )
+
+
+#   header file
+def getHeader():
+    title = l.div( db.getPageTitle )
+    buttonLinks = db.getLinks(c.header_panel)
+    for link in buttonLinks:
+        code += createButton(link)
+    ret code
+#   end header file
+
+
+#   body file
+def getBody(toBuild):
+    content = db.getBodyInfo()
+    return
+#   end body file
+
+
+#   footer file
+def getFooter():
+    #create footer and return
+    return l.div( db.getFooter )
+    
+#   end footer file
+
+#   db file - integration tier
+def getPageTitle():
+    #sql request
+    db.execute('select pageTitle from table bla');
+
+def getBodyInfo(key):
+    query = 'select content from table pages where thekey = %s' % key
+    answer = db.preocess_querry(querry)
+    #sql
+#   end db file
+
+def hi(name):
+    'hello ' + name
+    'hello %s' % name
+
+#   PROCES TWORZENIA:
+#   file template properties
+header_links = 'buttons'
+sidebar_links = 'sidebar'
+
+
+#   file server.config
+title = ''
+tytulPaska = ''
+
+dbadmin = ''
+dbpass = ''
+adminNick = ''
+
+
+#   file decorator - library
+def div(text):
+    return '<div>' + text + '</div>'
+    
+def div(el, id=None):
+    if id is not None:
+        return '<div ' + createId(id) + ' >' + el + '</div>'
+
+def header(el, id=None):
+    if id is not None:
+        return '<header %s> %s </header>' % (createId(id), el)
+    
+    return '<header>' + el + '</header>'
+
+#   private function
+def createId(id):
+    return ' id="%s" ' % id
+
+def body(el):
+    return '<body>' + el + '</body>'
+
+def html(el):
+    return '<html>' + el + '</html>'    
+
+def html(el):
+    return '<html>' + el + '</html>'    
+
+#   file decorator - library
+    
+#   file header
+def getHeader():
+    p = l.div( config.title )
+    return p
+
+
+
+
+
+#   sidebar template
+#   main template
+
+
+
+"""funkcje: 
+1. instalacja: 
+ - admin data
+ - db connection data
+ - page general data (title)
+2. edit site data
+ - modify title
+ - modify db connection
+ - modify admin data
+3. modify site content
+ - create page:
+ - remove page
+ - modify page
+"""
+
+
+"""
+1. create page:
+    - specify type
+    - specify title
+    - add content
+
+2. link page
+
+"""
+def create_db_data():
+    
+
+def create_admin(name, nick, password):
+    f <-- write to conf file
+    db.store(f)
+    #   sidebar template
+#   main template
+
+
+
+"""funkcje: 
+1. instalacja: 
+ - admin data
+ - db connection data
+ - page general data (title)
+2. edit site data
+ - modify title
+ - modify db connection
+ - modify admin data
+3. modify site content
+ - create page:
+ - remove page
+ - modify page
+"""
+
+
+"""
+1. create page:
+    - specify type
+    - specify title
+    - add content
+
+2. link page
+
+"""
+def create_db_data():
+    
+
+def create_admin(name, nick, password):
+    f <-- write to conf file
+    db.store(f)
+    
